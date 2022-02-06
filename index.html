@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- Boxicons CDN link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css">
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo_content">
+        <div class="logo">
+          <i class='bx bxl-c-plus-plus'></i>
+          <div class="logo_name">CodingLab</div>
+        </div>
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+      <ul class="nav_list">
+        <li>
+          <a href="#">
+            <i class="bx bx-search"></i>
+            <input type="text" placeholder="Search...">
+          </a>
+          <span class="tooltip">Dash</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-grid-alt"></i>
+            <span class="links_name">DashBoard</span>
+          </a>
+           <span class="tooltip">Dash</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bxs-user'></i>
+            <span class="links_name">User</span>
+          </a>
+           <span class="tooltip">Dash</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bxs-chat' ></i>
+            <span class="links_name">Messages</span>
+          </a>
+           <span class="tooltip">Dash</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bxs-pie-chart-alt-2' ></i>
+            <span class="links_name">Analytics</span>
+          </a>
+           <span class="tooltip">Dash</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bxs-folder'></i>
+            <span class="links_name">File Manager</span>
+          </a>
+           <span class="tooltip">Dash</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bxs-cart'></i>
+            <span class="links_name">Order</span>
+          </a>
+           <span class="tooltip">Dash</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bxs-heart' ></i>
+            <span class="links_name">Saved</span>
+          </a>
+         <span class="tooltip">Dash</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bxs-cog' ></i>
+            <span class="links_name">Setting</span>
+          </a>
+           <span class="tooltip">Dash</span>
+        </li>
+      </ul>
+      <div class="profile_content">
+        <div class="profile">
+          <div class="profile_details">
+             <img src="IMG_1787.JPG" alt="">
+            <div class="name_job">
+              <div class="name">Roberto Lezama</div>
+              <div class="job">Web Designer</div>
+            </div>
+          </div>
+          <i class='bx bxs-log-out' id='log_out'></i>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      let btn = document.querySelector("#btn");
+      let sidebar = document.querySelector(".sidebar");
+      let searchBtn = document.querySelector(".bx-search");
+
+      btn.onclick = function(){
+        sidebar.classList.toggle("active");
+      }
+      btn.onclick = function(){
+        searchBtn.classList.toggle("active");
+      }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
